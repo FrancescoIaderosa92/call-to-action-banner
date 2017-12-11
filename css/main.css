@@ -32,6 +32,16 @@ body {
   max-width: 50em;
 }
 
+.banner-logo {
+  float: left;
+  width: 30%;
+}
+
+.banner-info {
+  float: right;
+  width: 60%;
+}
+
 h2 {
   font-size: 4rem;
   color: black;
