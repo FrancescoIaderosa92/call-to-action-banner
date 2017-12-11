@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -11,6 +11,7 @@ html {
 body {
   margin: 0;
 }
+
 .img-flex {
   display: block;
   width: 100%;
@@ -23,38 +24,57 @@ body {
 }
 
 .banner-content {
-  padding: 0 1rem;
   position: absolute;
-  bottom: 1.5rem;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   width: 100%;
-  max-width: 50em;
+  max-width: 45em;
 }
 
 .banner-logo {
   float: left;
-  width: 30%;
+  width: 35%;
+  padding-right: 1em;
 }
 
 .banner-info {
+  padding-right: 1em;
   float: right;
   width: 60%;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
+  margin: 0;
   color: black;
   display: inline;
-  line-height: 1.4;
+  line-height: 1.2;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 p {
   padding-top: 1rem;
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .btn {
+  padding: .4em .75em .3em;
+  border: 3px solid #333;
+  display: inline-block;
+  background-color: #333;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  margin-top: 1em;
+}
 
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
 }
